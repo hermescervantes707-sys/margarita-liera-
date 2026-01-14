@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Margarita Liera | Alta Costura a Medida</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.hero {
+  background: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.services, .process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fafafa;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.filter {
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Botón WhatsApp flotante */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Alta Costura Hecha a Medida</h1>
+  <p>Diseños exclusivos para novias, XV años y eventos especiales.<br>
+  Cada vestido es creado desde cero, pensado únicamente para ti.</p>
+
+  <a class="btn" href="https://wa.me/526871101837" target="_blank">
+    Agenda tu cita por WhatsApp
+  </a>
+</section>
+
+<!-- SERVICIOS -->
+<section>
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="card">Vestidos de Novia</div>
+    <div class="card">Vestidos de XV Años</div>
+    <div class="card">Vestidos de Gala</div>
+    <div class="card">Diseños 100% a Medida</div>
+  </div>
+
+  <p style="margin-top:20px;">
+    No trabajamos con producción en serie ni vestidos de catálogo.
+    Cada diseño es exclusivo y artesanal.
+  </p>
+</section>
+
+<!-- PROCESO -->
+<section>
+  <h2>Nuestro Proceso</h2>
+  <div class="process">
+    <div class="card">
+      <strong>1. Cita Inicial</strong><br>
+      Conocemos tu evento, estilo y expectativas.
+    </div>
+
+    <div class="card">
+      <strong>2. Diseño y Telas</strong><br>
+      Creamos el boceto y seleccionamos materiales de alta calidad.
+    </div>
+
+    <div class="card">
+      <strong>3. Pruebas y Ajustes</strong><br>
+      El vestido se adapta perfectamente a tu cuerpo.
+    </div>
+
+    <div class="card">
+      <strong>4. Entrega Final</strong><br>
+      Recibes una pieza única, lista para tu gran momento.
+    </div>
+  </div>
+</section>
+
+<!-- FILTRO DE CLIENTAS -->
+<section class="filter">
+  <h2>Información Importante</h2>
+  <p>
+    Trabajamos únicamente con citas programadas.<br>
+    Nuestros diseños son de <strong>alta costura a medida</strong>,
+    ideales para quienes buscan exclusividad, calidad y atención personalizada.
+  </p>
+
+  <p>
+    Si buscas un vestido único y estás lista para invertir en tu evento,
+    con gusto te atenderemos.
+  </p>
+</section>
+
+<!-- CTA FINAL -->
+<section style="text-align:center;">
+  <h2>Agenda tu Cita</h2>
+  <p>Ubicación: Guasave, Sinaloa<br>
+  Atención únicamente con cita previa</p>
+
+  <a class="btn" href="https://wa.me/526871101837" target="_blank">
+    Contactar por WhatsApp
+  </a>
+</section>
+
+<footer>
+© Margarita Liera – Diseñadora de Modas<br>
+Alta Costura | Diseños a Medida
+</footer>
+
+<!-- BOTÓN WHATSAPP FLOTANTE -->
+<a class="whatsapp" href="https://wa.me/526871101837" target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
